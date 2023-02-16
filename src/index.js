@@ -1,4 +1,5 @@
-function sum(a, b) {
-    return a + b;
+export function reverseString(str) {
+    if(typeof(str) == 'string') {
+        return str.split('').reverse().join('');
+    } else return 'Не строка'
 }
-module.exports = sum;
