@@ -1,7 +1,7 @@
 import { reverseString } from "../index.js";
 
 describe("tests for reverseString function", () => {
-    let str1 = 'Hello';
+    const str1 = 'Hello';
     const str2 = '1234567';
 
     it("should operate correctly", () => {
